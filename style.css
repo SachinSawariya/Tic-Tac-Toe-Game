@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    background-color:lightpink;
+
+}
+
+.container{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gamebox{
+    width: 280px;
+    height: 280px;
+    background-color:gray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+    border-radius: 1rem;
+
+}
+
+.box{
+    width: 5rem;
+    height: 5rem;
+    border: none;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size: 6vmin;
+    color:black;
+    cursor: pointer;
+}
+
+.resetBtn{
+    width: 6rem;
+    height: 3rem;
+    font-size: 24px;
+    border-radius: 0.6rem;
+    background-color: blue;
+    cursor: pointer;
+    color: white;
+}
+
+#new-btn{
+    width: 8rem;
+    height: 3rem;
+    font-size: 20px;
+    border-radius: 0.6rem;
+    background-color: brown;
+    cursor: pointer;
+    margin-bottom: 2rem;
+
+}
+
+#msg{
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.hide{
+    display: none;
+}
+
+.boxItem{
+    display:none;
+}
